@@ -1,6 +1,6 @@
 docker.io/prom/prometheus:v2.8.0                            localhost:5000/prom/prometheus:v2.8.0
 grafana/grafana:6.1.6                                       localhost:5000/grafana/grafana:6.1.6
-docker.io/jaegertracing/all-in-one:1.9                      localhost:5000/jaegertracing/all-in-one:1.9
+docker.io/jaegertracing/all-in-one:1.12                     localhost:5000/jaegertracing/all-in-one:1.12
 quay.io/kiali/kiali:v1.1.0                                  localhost:5000/kiali/kiali:v1.1.0
 
 docker.io/istio/examples-bookinfo-details-v1:1.15.0         localhost:5000/istio/examples-bookinfo-details-v1:1.15.0
@@ -8,17 +8,19 @@ docker.io/istio/examples-bookinfo-ratings-v1:1.15.0         localhost:5000/istio
 docker.io/istio/examples-bookinfo-reviews-v3:1.15.0         localhost:5000/istio/examples-bookinfo-reviews-v3:1.15.0
 docker.io/istio/examples-bookinfo-productpage-v1:1.15.0     localhost:5000/examples-bookinfo-productpage-v1:1.15.0
 
-docker.io/istio/kubectl:v1.2.2                              localhost:5000/istio/kubectl:v1.3.0-a709747
-docker.io/istio/sidecar_injector:v1.2.2                     localhost:5000/istio/sidecar_injector:v1.3.0-a709747
-docker.io/istio/galley:v1.2.2                               localhost:5000/istio/galley:v1.3.0-a709747
-docker.io/istio/citadel:v1.2.2                              localhost:5000/istio/citadel:v1.3.0-a709747
-docker.io/istio/mixer_codegen:v1.2.2                        localhost:5000/istio/mixer_codegen:v1.3.0-a709747
-docker.io/istio/mixer:v1.2.2                                localhost:5000/istio/mixer:v1.3.0-a709747
-docker.io/istio/proxy_init:v1.2.2                           localhost:5000/istio/proxy_init:v1.3.0-a709747
-docker.io/istio/test_policybackend:v1.2.2                   localhost:5000/istio/test_policybackend:v1.3.0-a709747
-docker.io/istio/proxyv2:v1.2.2                              localhost:5000/istio/proxyv2:v1.3.0-a709747
-docker.io/istio/proxytproxy:v1.2.2                          localhost:5000/istio/proxytproxy:v1.3.0-a709747
-docker.io/istio/proxy_debug:v1.2.2                          localhost:5000/istio/proxy_debug:v1.3.0-a709747
-docker.io/istio/pilot:v1.2.2                                localhost:5000/istio/pilot:v1.3.0-a709747
-docker.io/istio/node-agent-k8s:v1.2.2                       localhost:5000/istio/node-agent-k8s:v1.3.0-a709747
-docker.io/istio/app_sidecar:v1.2.2                          localhost:5000/istio/app_sidecar:v1.3.0-a709747
+docker.io/istio/kubectl:v1.3.0-578c650                      localhost:5000/istio/kubectl:v1.3.0-578c650
+docker.io/istio/sidecar_injector:v1.3.0-578c650             localhost:5000/istio/sidecar_injector:v1.3.0-578c650
+docker.io/istio/galley:v1.3.0-578c650                       localhost:5000/istio/galley:v1.3.0-578c650
+docker.io/istio/citadel:v1.3.0-578c650                      localhost:5000/istio/citadel:v1.3.0-578c650
+docker.io/istio/mixer_codegen:v1.3.0-578c650                localhost:5000/istio/mixer_codegen:v1.3.0-578c650
+docker.io/istio/mixer:v1.3.0-578c650                        localhost:5000/istio/mixer:v1.3.0-578c650
+docker.io/istio/proxy_init:v1.3.0-578c650                   localhost:5000/istio/proxy_init:v1.3.0-578c650
+docker.io/istio/test_policybackend:v1.3.0-578c650           localhost:5000/istio/test_policybackend:v1.3.0-578c650
+docker.io/istio/proxyv2:v1.3.0-578c650                      localhost:5000/istio/proxyv2:v1.3.0-578c650
+docker.io/istio/proxytproxy:v1.3.0-578c650                  localhost:5000/istio/proxytproxy:v1.3.0-578c650
+docker.io/istio/proxy_debug:v1.3.0-578c650                  localhost:5000/istio/proxy_debug:v1.3.0-578c650
+docker.io/istio/pilot:v1.3.0-578c650                        localhost:5000/istio/pilot:v1.3.0-578c650
+docker.io/istio/node-agent-k8s:v1.3.0-578c650               localhost:5000/istio/node-agent-k8s:v1.3.0-578c650
+docker.io/istio/app_sidecar:v1.3.0-578c650                  localhost:5000/istio/app_sidecar:v1.3.0-578c650
+
+docker.io/istio/install-cni:v1.3.0-578c650                  localhost:5000/istio/install-cni:v1.3.0-578c650
