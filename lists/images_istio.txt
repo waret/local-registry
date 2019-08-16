@@ -1,12 +1,14 @@
-docker.io/prom/prometheus:v2.8.0                            localhost:5000/prom/prometheus:v2.8.0
-grafana/grafana:6.1.6                                       localhost:5000/grafana/grafana:6.1.6
-docker.io/jaegertracing/all-in-one:1.12                     localhost:5000/jaegertracing/all-in-one:1.12
-quay.io/kiali/kiali:v1.1.0                                  localhost:5000/kiali/kiali:v1.1.0
+docker.io/prom/prometheus:v2.11.2                           harbor.waret.net/prom/prometheus:v2.11.2
+grafana/grafana:6.3.3                                       harbor.waret.net/grafana/grafana:6.3.3
+docker.io/jaegertracing/all-in-one:1.13.1                   harbor.waret.net/jaegertracing/all-in-one:1.13.1
+quay.io/kiali/kiali:v1.3.1                                  harbor.waret.net/kiali/kiali:v1.3.1
 
-docker.io/istio/examples-bookinfo-details-v1:1.15.0         localhost:5000/istio/examples-bookinfo-details-v1:1.15.0
-docker.io/istio/examples-bookinfo-ratings-v1:1.15.0         localhost:5000/istio/examples-bookinfo-ratings-v1:1.15.0
-docker.io/istio/examples-bookinfo-reviews-v3:1.15.0         localhost:5000/istio/examples-bookinfo-reviews-v3:1.15.0
-docker.io/istio/examples-bookinfo-productpage-v1:1.15.0     localhost:5000/examples-bookinfo-productpage-v1:1.15.0
+docker.io/istio/examples-bookinfo-details-v1:1.15.0         harbor.waret.net/istio/examples-bookinfo-details-v1:1.15.0
+docker.io/istio/examples-bookinfo-ratings-v1:1.15.0         harbor.waret.net/istio/examples-bookinfo-ratings-v1:1.15.0
+docker.io/istio/examples-bookinfo-reviews-v1:1.15.0         harbor.waret.net/istio/examples-bookinfo-reviews-v1:1.15.0
+docker.io/istio/examples-bookinfo-reviews-v2:1.15.0         harbor.waret.net/istio/examples-bookinfo-reviews-v2:1.15.0
+docker.io/istio/examples-bookinfo-reviews-v3:1.15.0         harbor.waret.net/istio/examples-bookinfo-reviews-v3:1.15.0
+docker.io/istio/examples-bookinfo-productpage-v1:1.15.0     harbor.waret.net/istio/examples-bookinfo-productpage-v1:1.15.0
 
 docker.io/istio/kubectl:v1.3.0-578c650                      localhost:5000/istio/kubectl:v1.3.0-578c650
 docker.io/istio/sidecar_injector:v1.3.0-578c650             localhost:5000/istio/sidecar_injector:v1.3.0-578c650
