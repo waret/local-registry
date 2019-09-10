@@ -29,3 +29,6 @@ sh lists/files_k8s-v1.15.3.txt
 ```
 
 
+```
+sudo yum install -y sshpass
+```
