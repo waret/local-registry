@@ -23,6 +23,9 @@ for i in 1 2 3 4 5 6 7 8; do ssh root@10.20.1.7$i "ps aux | grep revprox"; done
 ```
 awk '{system("sh trans-image.sh push "$1" "$2)}' images_k8s-v1.15.0.txt
 awk '{system("docker pull "$1"; docker tag "$1" "$2"; docker push "$2)}' images
+
+awk '{system("sh tools/trans-image.sh push "$1" "$2)}' lists/images_k8s-v1.15.3.txt
+sh lists/files_k8s-v1.15.3.txt
 ```
 
 
