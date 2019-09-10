@@ -6,6 +6,7 @@ import (
 	"net/http/httputil"
 	"net/url"
 	"os"
+    "fmt"
 )
 
 func main() {
@@ -17,6 +18,11 @@ func main() {
 		remoteSvc = os.Getenv("REMOTE_SVC")
 		localPort = os.Getenv("LOCAL_PORT")
 	}
+
+    if remoteSvc == "" || localPort == "" {
+        fmt.Println("empty parameters")
+        os.Exit(1)
+    }
 
 	remote, err := url.Parse("http://" + remoteSvc)
 	if err != nil {
