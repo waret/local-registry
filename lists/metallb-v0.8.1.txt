@@ -1,0 +1,2 @@
+metallb/controller:v0.8.1  localhost:5000/metallb/controller:v0.8.1
+metallb/speaker:v0.8.1     localhost:5000/metallb/speaker:v0.8.1

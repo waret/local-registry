@@ -1,0 +1,17 @@
+calico/cni:v3.7.3                                                       localhost:5000/calico/cni:v3.7.3
+calico/kube-controllers:v3.7.3                                          localhost:5000/calico/kube-controllers:v3.7.3
+calico/node:v3.7.3                                                      localhost:5000/calico/node:v3.7.3
+coredns/coredns:1.6.0                                                   localhost:5000/coredns/coredns:1.6.0
+nginx:1.15                                                              localhost:5000/nginx:1.15
+quay.io/kubernetes-ingress-controller/nginx-ingress-controller:0.25.1   localhost:5000/kubernetes-ingress-controller/nginx-ingress-controller:0.25.1
+rancher/local-path-provisioner:v0.0.2                                   localhost:5000/rancher/local-path-provisioner:v0.0.2
+quay.io/coreos/etcd:v3.3.10                                             localhost:5000/coreos/etcd:v3.3.10
+gcr.io/google-containers/kube-proxy:v1.15.3                             localhost:5000/google-containers/kube-proxy:v1.15.3
+gcr.io/google-containers/kube-apiserver:v1.15.3                         localhost:5000/google-containers/kube-apiserver:v1.15.3
+gcr.io/google-containers/kube-scheduler:v1.15.3                         localhost:5000/google-containers/kube-scheduler:v1.15.3
+gcr.io/google-containers/kube-controller-manager:v1.15.3                localhost:5000/google-containers/kube-controller-manager:v1.15.3
+k8s.gcr.io/cluster-proportional-autoscaler-amd64:1.6.0                  localhost:5000/k8s/cluster-proportional-autoscaler-amd64:1.6.0
+k8s.gcr.io/k8s-dns-node-cache:1.15.4                                    localhost:5000/k8s/k8s-dns-node-cache:1.15.4
+gcr.io/google-containers/pause:3.1                                      localhost:5000/google-containers/pause:3.1
+gcr.io/google_containers/pause-amd64:3.1                                localhost:5000/google_containers/pause-amd64:3.1
+quay.io/external_storage/local-volume-provisioner:v2.3.2                localhost:5000/external_storage/local-volume-provisioner:v2.3.2

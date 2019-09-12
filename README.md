@@ -31,4 +31,6 @@ sh lists/files_k8s-v1.15.3.txt
 
 ```
 sudo yum install -y sshpass
+ansible -i 71/inventory.ini all -m ping
+ansible-playbook  -i 71/inventory.ini --become --become-user=root ../kubespray/cluster.yml
 ```

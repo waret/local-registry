@@ -1,0 +1,11 @@
+rm -rf server/nginx/html/containernetworking/plugins/releases/download/v0.8.1/cni-plugins-linux-amd64-v0.8.1.tgz
+wget https://github.com/containernetworking/plugins/releases/download/v0.8.1/cni-plugins-linux-amd64-v0.8.1.tgz -P server/nginx/html/containernetworking/plugins/releases/download/v0.8.1/
+
+rm -rf server/nginx/html/kubernetes-release/release/v1.15.3/bin/linux/amd64/kubeadm
+wget https://storage.googleapis.com/kubernetes-release/release/v1.15.3/bin/linux/amd64/kubeadm -P server/nginx/html/kubernetes-release/release/v1.15.3/bin/linux/amd64/
+
+rm -rf server/nginx/html/kubernetes-release/release/v1.15.3/bin/linux/amd64/hyperkube
+wget https://storage.googleapis.com/kubernetes-release/release/v1.15.3/bin/linux/amd64/hyperkube -P server/nginx/html/kubernetes-release/release/v1.15.3/bin/linux/amd64/
+
+rm -rf server/nginx/html/projectcalico/calicoctl/releases/download/v3.7.3/calicoctl-linux-amd64
+wget https://github.com/projectcalico/calicoctl/releases/download/v3.7.3/calicoctl-linux-amd64  -P server/nginx/html/projectcalico/calicoctl/releases/download/v3.7.3/
