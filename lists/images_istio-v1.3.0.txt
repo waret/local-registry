@@ -1,0 +1,29 @@
+
+docker.io/istio/examples-bookinfo-details-v1:1.15.0         harbor.waret.net/istio/examples-bookinfo-details-v1:1.15.0
+docker.io/istio/examples-bookinfo-ratings-v1:1.15.0         harbor.waret.net/istio/examples-bookinfo-ratings-v1:1.15.0
+docker.io/istio/examples-bookinfo-reviews-v1:1.15.0         harbor.waret.net/istio/examples-bookinfo-reviews-v1:1.15.0
+docker.io/istio/examples-bookinfo-reviews-v2:1.15.0         harbor.waret.net/istio/examples-bookinfo-reviews-v2:1.15.0
+docker.io/istio/examples-bookinfo-reviews-v3:1.15.0         harbor.waret.net/istio/examples-bookinfo-reviews-v3:1.15.0
+docker.io/istio/examples-bookinfo-productpage-v1:1.15.0     harbor.waret.net/istio/examples-bookinfo-productpage-v1:1.15.0
+
+docker.io/prom/prometheus:v2.8.0                            harbor.waret.net/prom/prometheus:v2.8.0
+grafana/grafana:6.1.6                                       harbor.waret.net/grafana/grafana:6.1.6
+docker.io/jaegertracing/all-in-one:1.12                     harbor.waret.net/jaegertracing/all-in-one:1.12
+quay.io/kiali/kiali:v1.4                                    harbor.waret.net/kiali/kiali:v1.4
+
+docker.io/istio/citadel:1.3.0                               harbor.waret.net/istio/citadel:1.3.0
+docker.io/istio/galley:1.3.0                                harbor.waret.net/istio/galley:1.3.0
+docker.io/istio/kubectl:1.3.0                               harbor.waret.net/istio/kubectl:1.3.0
+docker.io/istio/mixer:1.3.0                                 harbor.waret.net/istio/mixer:1.3.0
+docker.io/istio/pilot:1.3.0                                 harbor.waret.net/istio/pilot:1.3.0
+docker.io/istio/proxyv2:1.3.0                               harbor.waret.net/istio/proxyv2:1.3.0
+docker.io/istio/sidecar_injector:1.3.0                      harbor.waret.net/istio/sidecar_injector:1.3.0
+docker.io/istio/install-cni:1.3.0                          harbor.waret.net/istio/install-cni:1.3.0
+
+# docker.io/istio/mixer_codegen:1.3.0                        harbor.waret.net/istio/mixer_codegen:1.3.0
+# docker.io/istio/proxy_init:1.3.0                           harbor.waret.net/istio/proxy_init:1.3.0
+# docker.io/istio/test_policybackend:1.3.0                   harbor.waret.net/istio/test_policybackend:1.3.0
+# docker.io/istio/proxytproxy:1.3.0                          harbor.waret.net/istio/proxytproxy:1.3.0
+# docker.io/istio/proxy_debug:1.3.0                          harbor.waret.net/istio/proxy_debug:1.3.0
+# docker.io/istio/node-agent-k8s:1.3.0                       harbor.waret.net/istio/node-agent-k8s:1.3.0
+# docker.io/istio/app_sidecar:1.3.0                          harbor.waret.net/istio/app_sidecar:1.3.0
