@@ -11,7 +11,7 @@ gcr.io/google-containers/kube-apiserver:v1.15.3                         10.20.1.
 gcr.io/google-containers/kube-scheduler:v1.15.3                         10.20.1.67:5000/google-containers/kube-scheduler:v1.15.3
 gcr.io/google-containers/kube-controller-manager:v1.15.3                10.20.1.67:5000/google-containers/kube-controller-manager:v1.15.3
 k8s.gcr.io/cluster-proportional-autoscaler-amd64:1.6.0                  10.20.1.67:5000/k8s/cluster-proportional-autoscaler-amd64:1.6.0
-k8s.gcr.io/k8s-dns-node-cache:1.15.4                                    10.20.1.67:5000/k8s/k8s-dns-node-cache:1.15.4
+k8s.gcr.io/k8s-dns-node-cache:1.15.5                                    10.20.1.67:5000/k8s/k8s-dns-node-cache:1.15.5
 gcr.io/google-containers/pause:3.1                                      10.20.1.67:5000/google-containers/pause:3.1
 gcr.io/google_containers/pause-amd64:3.1                                10.20.1.67:5000/google_containers/pause-amd64:3.1
 quay.io/external_storage/local-volume-provisioner:v2.3.2                10.20.1.67:5000/external_storage/local-volume-provisioner:v2.3.2
