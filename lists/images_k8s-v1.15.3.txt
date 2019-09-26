@@ -15,3 +15,4 @@ k8s.gcr.io/k8s-dns-node-cache:1.15.4                                    localhos
 gcr.io/google-containers/pause:3.1                                      localhost:5000/google-containers/pause:3.1
 gcr.io/google_containers/pause-amd64:3.1                                localhost:5000/google_containers/pause-amd64:3.1
 quay.io/external_storage/local-volume-provisioner:v2.3.2                localhost:5000/external_storage/local-volume-provisioner:v2.3.2
+gcr.io/google_containers/kubernetes-dashboard-amd64:v1.10.1             localhost:5000/google_containers/kubernetes-dashboard-amd64:v1.10.1
