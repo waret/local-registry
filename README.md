@@ -13,18 +13,15 @@ for i in {21,22,23,24,25}; do ssh root@192.168.2.$i "/root/revprox 192.168.2.10:
 
 ```
 for i in 1 2 3 4 5 6 7 8; do scp client-go/revprox root@10.20.1.7$i:/root/revprox; done
-for i in 1 2 3 4 5 6 7 8; do ssh root@10.20.1.7$i "/root/revprox 10.20.50.166:5000 5000 >/dev/null 2>&1 &"; done
-for i in 1 2 3 4 5 6 7 8; do ssh root@10.20.1.7$i "/root/revprox 10.20.50.205:5000 5000 >/dev/null 2>&1 &"; done
 for i in 1 2 3 4 5 6 7 8; do ssh root@10.20.1.7$i "pkill revprox"; done
+for i in 1 2 3 4 5 6 7 8; do ssh root@10.20.1.7$i "/root/revprox 10.20.1.67:5000 5000 >/dev/null 2>&1 &"; done
 for i in 1 2 3 4 5 6 7 8; do ssh root@10.20.1.7$i "ps aux | grep revprox"; done
 ```
 
 
 ```
-awk '{system("sh trans-image.sh push "$1" "$2)}' images_k8s-v1.15.0.txt
-awk '{system("docker pull "$1"; docker tag "$1" "$2"; docker push "$2)}' images
-
-awk '{system("sh tools/trans-image.sh push "$1" "$2)}' lists/images_k8s-v1.15.3.txt
+awk '/dashboard/ {system("sh local-registry/tools/trans-image.sh push "$1" "$2)}' local-registry/lists/images_k8s-v1.15.3.txt
+awk '{system("sh local-registry/tools/trans-image.sh push "$1" "$2)}' local-registry/lists/images_k8s-v1.15.3.txt
 sh lists/files_k8s-v1.15.3.txt
 ```
 
@@ -32,5 +29,5 @@ sh lists/files_k8s-v1.15.3.txt
 ```
 sudo yum install -y sshpass
 ansible -i 71/inventory.ini all -m ping
-ansible-playbook  -i 71/inventory.ini --become --become-user=root ../kubespray/cluster.yml
+ansible-playbook -i kubespray-inventories/71/inventory.ini --become --become-user=root repos/kubespray/cluster.yml
 ```
